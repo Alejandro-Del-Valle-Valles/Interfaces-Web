@@ -1,0 +1,66 @@
+#titulo {
+    color: aquamarine;
+}
+
+strong {
+    color: red
+}
+
+.destacado {
+    color:darkgoldenrod
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+a em {
+    color:blue
+}
+
+.especial {
+    color:purple
+}
+
+table {
+    border-collapse: collapse;
+    color:green
+}
+
+th.especial{
+    color: darkgoldenrod;
+}
+
+th, td {
+   border: 1px solid black;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+table caption {
+    color:blue
+}
+
+table strong {
+    color:darkgoldenrod;
+}
+
+th {
+    color:red;
+}
+
+#adicional {
+    color: darkgoldenrod
+}
+
+#adicional a {
+    color:greenyellow
+}
+
+#especial {
+    color:palevioletred
+}
