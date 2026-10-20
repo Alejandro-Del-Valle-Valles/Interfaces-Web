@@ -1,0 +1,25 @@
+.btn-back-arrow {
+    float: left;
+    width: 200px;
+    height: 188px;
+    background-image: url(ejercicio07.png);
+    background-position-x: -200px;
+    background-repeat: no-repeat;
+}
+
+.btn-back-arrow:hover {
+    background-position-x: -400px;
+    background-position-y: -376px;
+}
+
+.btn-next-arrow {
+    float: right;
+    width: 200px;
+    height: 188px;
+    background-image: url(ejercicio07.png);
+    background-repeat: no-repeat;
+}
+
+.btn-next-arrow:hover {
+    background-position-x: -400px;
+}
