@@ -1,0 +1,12 @@
+#contenedor {
+    margin: 3em;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.requerido {
+    color: red;
+}
