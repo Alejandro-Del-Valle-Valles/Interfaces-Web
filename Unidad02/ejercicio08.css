@@ -34,7 +34,7 @@ select {
 }
 
 #cabecera {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #contenedor {
@@ -72,10 +72,6 @@ select {
 
 #apellido1, #apellido2 {
     width: 300px;
-}
-
-#localizacion {
-    display: flex;
 }
 
 #localizacion {

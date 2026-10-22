@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+span {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+li {
+    border-top: #ccc solid 0.2em;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 20px 14rem 20px 11em;
+}
+
+li label.titulo {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 10rem;
+    text-align: right;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+select {
+    background: white;
+}
+
+#cabecera {
+    font-size: 2em;
+}
+
+#contenedor {
+    margin: 3em;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.requerido {
+    color: red;
+}
+
+.ayuda {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 12rem;
+    margin: 0;
+}
+
+
+#informacion-personal span,input {
+    display: block;
+}
+
+#informacion-personal label span {
+    display: inline;
+}
+
+
+#apellido1, #apellido2 {
+    width: 300px;
+}
+
+#direccion-item {
+    background-color: khaki;
+}
+
+#direccion-item .ayuda {
+    display: flex;
+    float: right;
+}
+
+#localizacion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 10rem;
+}
+
+#localizacion .direccion {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+#localizacion .salto {
+  flex: 0 0 100%;
+  height: 0; 
+  margin: 0;
+  padding: 0;
+}
+
+#codigopostal, #provincia {
+    width: 200px;
+}
+
+#direccion {
+    width: 500px;
+}
+
+#municipio {
+    width: 300px;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+}
+
+#pais, #provincia {
+    display: block;
+}
+
+#pais {
+    width: 250px;
+}
+
+#contacto {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#contacto input {
+    width: 200px;
+}
+
+#alta {
+    float: right;
+    font-size: large;
+}
