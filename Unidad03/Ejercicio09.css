@@ -1,0 +1,30 @@
+ul {
+    display: block;
+    width: 12em;
+}
+
+li {
+    display: flex;
+    background-color: gray;
+    border: 1px solid black;
+    list-style: none;
+    padding: 0.3em;
+}
+
+li:hover {
+    background-color: #E4E4E4;
+    transition: 0.2s;
+}
+
+li:hover .img-menu {
+    background-image: url('images/flecha_activa.png');
+}
+
+.img-menu {
+    height: 30px;
+    width: 30px;
+    margin: 0 0.2em;
+    background-image: url('images/flecha_inactiva.png');
+    background-repeat: no-repeat;
+    display: block;
+}
