@@ -17,14 +17,14 @@ li:hover {
 }
 
 li:hover .img-menu {
-    background-image: url('images/flecha_activa.png');
+    background-image: url('/images/flecha_activa.png');
 }
 
 .img-menu {
     height: 30px;
     width: 30px;
     margin: 0 0.2em;
-    background-image: url('images/flecha_inactiva.png');
+    background-image: url('/images/flecha_inactiva.png');
     background-repeat: no-repeat;
     display: block;
 }

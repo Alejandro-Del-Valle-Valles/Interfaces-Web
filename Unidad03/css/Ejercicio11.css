@@ -1,0 +1,25 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 280px;
+    border: 1em solid white;
+    border-bottom: 3em solid white;
+    margin: 10px;
+}
+
+img:hover {
+    transition-duration: 1s;
+    rotate: 0deg;
+    z-index: 100;
+    scale: 1.2;
+}
