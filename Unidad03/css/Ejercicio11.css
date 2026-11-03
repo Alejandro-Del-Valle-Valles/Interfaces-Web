@@ -15,11 +15,41 @@ img {
     border: 1em solid white;
     border-bottom: 3em solid white;
     margin: 10px;
+
+    transition: rotate 1s ease, scale 1s ease;
 }
 
-img:hover {
-    transition-duration: 1s;
+#image-01 {
+    z-index: 0;
+    position: absolute;
+    rotate: 5deg;
+    top: 50px;
+}
+
+#image-02 {
+    z-index: 1;
+    position: absolute;
+    rotate: -5deg;
+    top: 20%;
+    left: 52%;
+}
+
+#image-03 {
+    z-index: 2;
+    position: absolute;
+    rotate: 2deg;
+    left: 36%;
+}
+
+#image-04 {
+    z-index: 3;
+    position: absolute;
+    rotate: -10deg;
+    top: 50%;
+}
+
+:is(#image-01, #image-02, #image-03, #image-04):hover {
     rotate: 0deg;
-    z-index: 100;
     scale: 1.2;
+    z-index: 100;
 }
