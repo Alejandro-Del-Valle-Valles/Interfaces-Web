@@ -9,25 +9,35 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: larger;
-}
-
-nav {
-    background-color: burlywood;
-    display: block;
-    width: 20vh;;
-    padding: 1vh;
+    display: flex;
 }
 
 ul {
+    background-color: burlywood;
+    width: 25vh;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px;
+    overflow: hidden;
 }
 
-li {
-    margin: 3px;
-    padding: 3px;
-}
-
-a {
+li a {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
     text-decoration: none;
     color: black;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+li a:hover {
+    color: turquoise;
+    transform: translateX(20px) scale(1.2);
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    border-bottom: 1px solid turquoise;
 }

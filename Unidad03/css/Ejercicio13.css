@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+#pelota-container {
+    position: relative;
+    width: 92px;
+    height: 92px;
+}
+
+#pelota {
+    position: absolute;
+    inset: 0;
+    width: 92px;
+    height: 92px;
+    background: url('../images/pelota.png') center / contain no-repeat;
+    z-index: 1;
+}
+
+#baloncesto {
+    position: absolute;
+    inset: 0;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../images/baloncesto.jpg');
+    background-repeat: repeat-x;
+    background-size: auto 92px;
+    animation: pelota 2s infinite linear;
+    z-index: 0;
+}
+
+#lata-container {
+    margin-top: 25px;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#lata {
+    position: absolute;
+    inset: 0;
+    width: 194px;
+    height: 336px;
+    background: url('../images/lata.png') center / contain no-repeat;
+    z-index: 1;
+}
+
+#etiqueta {
+    position: absolute;
+    inset: 0;
+    height: 336px;
+    width: 194px;
+    overflow: hidden;
+    background-image: url('../images/etiqueta.jpg');
+    background-repeat: repeat-x;
+    background-size: 480px 336px;
+    animation: etiqueta 10s infinite linear;
+    z-index: 0;
+}
+
+@keyframes pelota {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -163.8px 0;
+    }
+}
+
+@keyframes etiqueta {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: -480px 0;
+    }
+}
