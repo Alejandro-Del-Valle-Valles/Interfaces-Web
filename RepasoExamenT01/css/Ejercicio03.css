@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#header {
+    background-image: url("/imgs/cabecera.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    padding: 10px;
+    color: crimson;
+}
+
+#header h1 {
+    animation: voltereta 5s ease 3s infinite forwards;
+}
+
+#footer {
+   background-image: url("/imgs/cabecera.png");
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center; 
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+}
+
+nav {
+    display: flex;
+    width: fit-content;
+    background-color: cadetblue;
+    padding: 20px 50px 20px 5px;
+    align-items: center;
+}
+
+nav ul {
+    list-style:  none;
+}
+
+nav ul li {
+    padding: 10px 0;
+}
+
+nav ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover {
+    background-color: brown;
+    transform: scale(1.2) translate(15px);
+    transition: 0.3s;
+}
+
+nav ul li:hover a {
+    font-weight: bold;
+}
+
+#articles {
+    grid-column: auto;
+}
+
+article {
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.article-header {
+    border-bottom: 1px solid black;
+}
+
+.article-footer {
+    font-weight: bold;
+    float: right;
+    margin: 5px 30px;
+}
+
+.article-p::first-letter {
+    font-size: 36px;
+    color: coral;
+    text-transform: uppercase;
+}
+
+@keyframes voltereta {
+    0%, 50% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
+    /*60%, 100% {
+        transform: rotateX(0deg);
+    }*/
+}
